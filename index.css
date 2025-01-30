@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    background: #1B244A;
+    text-align: center;    
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 20px
+}
+
+h3, #winner {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    margin: 10px;
+    color: #EEEEEE;
+}
+
+h4 {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 90px;                                            
+}
+
+#home-score, #guest-score {
+    width: 200px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F94F6D; 
+    background-color: #080001;
+    border-radius: 10px;
+    margin: 15px auto;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.btn-add-score  {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    font-size: 20px;
+    color: #9AABD8;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding: 8px 8px;
+    margin: 5px;
+}
+
+#end-game {
+    margin: 20px;
+    padding: 10px 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #9AABD8;
+    background: #1B244A;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+}
+
+
